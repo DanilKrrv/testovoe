@@ -3,6 +3,9 @@ import LoginForm from '../LoginForm/LoginForm';
 import Header from '../../Components/Header/Header';
 import './Main.css';
 import { useNavigate } from 'react-router-dom';
+import circle1 from '/src/assets/circle sec-.png'
+import circle2 from '/src/assets/circle sec- (1).png'
+import circle3 from '/src/assets/circle sec- (2).png'
 
 // eslint-disable-next-line react/prop-types
 const Main = ({ handleOpenLogin, handleCloseLogin, authorized, setAuthorized, setUser }) => {
@@ -30,7 +33,7 @@ const Main = ({ handleOpenLogin, handleCloseLogin, authorized, setAuthorized, se
                 <div className='wrapper-content'>
                     <div className='item'>
                         <div className='item-wrap'>
-                            <img src='./src/assets/circle sec-.png' alt='image' />
+                            <img src={circle1} alt='image' />
                             <h5>Онлайн прием</h5>
                             <div className="red-bar"></div>
                             <p>Рыба текст</p>
@@ -39,7 +42,7 @@ const Main = ({ handleOpenLogin, handleCloseLogin, authorized, setAuthorized, se
                     </div>
                     <div className='item'>
                         <div className='item-wrap'>
-                            <img src='./src/assets/circle sec- (1).png' alt='image' />
+                            <img src={circle2} alt='image' />
                             <h5>Экстренный случай</h5>
                             <div className="red-bar"></div>
                             <p>Рыба текст</p>
@@ -48,7 +51,7 @@ const Main = ({ handleOpenLogin, handleCloseLogin, authorized, setAuthorized, se
                     </div>
                     <div className='item'>
                         <div className='item-wrap'>
-                            <img src='./src/assets/circle sec- (2).png' alt='image' />
+                            <img src={circle3} alt='image' />
                             <h5>Лечение рака</h5>
                             <div className="red-bar"></div>
                             <p>Рыба текст</p>
