@@ -6,7 +6,7 @@
 
 ### Демонстрация
 
-- Live Site URL: (https://playful-beijinho-98f849.netlify.app/)
+- Live Site URL: (https://playful-taiyaki-1fb581.netlify.app)
 
 ### Стек технологий
 
