@@ -13,7 +13,7 @@ const Header = ({ handleOpenLogin, authorized, setAuthorized }) => {
 
   return (
     <div className='header'>
-      <img className='logo' src='/src/assets/logo.png'></img>
+      <img className='logo' src='./src/assets/logo.png'></img>
       <div className='right-container'>
         <Link className='contact' to="/Contact">Контакты</Link>
         <button className='btn' onClick={!authorized ? handleOpenLogin : toExit}>{!authorized ? `Войти` : `Выйти`}</button>

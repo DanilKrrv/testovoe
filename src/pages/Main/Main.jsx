@@ -30,7 +30,7 @@ const Main = ({ handleOpenLogin, handleCloseLogin, authorized, setAuthorized, se
                 <div className='wrapper-content'>
                     <div className='item'>
                         <div className='item-wrap'>
-                            <img src='/src/assets/circle sec-.png' alt='image' />
+                            <img src='./src/assets/circle sec-.png' alt='image' />
                             <h5>Онлайн прием</h5>
                             <div className="red-bar"></div>
                             <p>Рыба текст</p>
@@ -39,7 +39,7 @@ const Main = ({ handleOpenLogin, handleCloseLogin, authorized, setAuthorized, se
                     </div>
                     <div className='item'>
                         <div className='item-wrap'>
-                            <img src='/src/assets/circle sec- (1).png' alt='image' />
+                            <img src='./src/assets/circle sec- (1).png' alt='image' />
                             <h5>Экстренный случай</h5>
                             <div className="red-bar"></div>
                             <p>Рыба текст</p>
@@ -48,7 +48,7 @@ const Main = ({ handleOpenLogin, handleCloseLogin, authorized, setAuthorized, se
                     </div>
                     <div className='item'>
                         <div className='item-wrap'>
-                            <img src='/src/assets/circle sec- (2).png' alt='image' />
+                            <img src='./src/assets/circle sec- (2).png' alt='image' />
                             <h5>Лечение рака</h5>
                             <div className="red-bar"></div>
                             <p>Рыба текст</p>

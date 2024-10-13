@@ -6,7 +6,7 @@
 
 ### Демонстрация
 
-- Live Site URL: (https://aquamarine-bombolone-65fe5e.netlify.app/)
+- Live Site URL: (https://playful-beijinho-98f849.netlify.app/)
 
 ### Стек технологий
 
