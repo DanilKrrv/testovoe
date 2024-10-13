@@ -1,0 +1,111 @@
+.account-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-container {
+  width: 1046px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.account-title {
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.account-btn-wrap {
+  margin-top: 27px;
+  display: flex;
+}
+
+.exit-btn {
+  width: 228px;
+  height: 52px;
+  padding: 15px 40px;
+  color: #FFF;
+  background-color: #FF685B;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-to-contact {
+  height: 52px;
+  padding: 15px 40px;
+  border: 1px solid #FF685B;
+  color: #FF685B;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .account-wrapper {
+    width: 100vw;
+  }
+
+  .account-container {
+    width: 100vw;
+  }
+
+  .account-title {
+    font-size: 25px;
+  }
+
+  .exit-btn {
+    padding: 6px 20px;
+  }
+
+  .btn-to-contact {
+    text-align: center;
+  }
+
+  .pad-norm {
+    padding: 6px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .account-wrapper {
+    width: 100vw;
+    margin-left: 20px;
+  }
+
+  .account-container {
+    width: 100vw;
+  }
+
+  .account-title {
+    font-size: 30px;
+  }
+
+  .exit-btn {
+    padding: 6px 20px;
+  }
+
+  .btn-to-contact {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,85 @@
+.modal {
+  position: fixed;
+  top: 33%;
+  left: 33%;
+  width: 500px;
+  height: 250px;
+  border: 1px solid #FF685B;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#authorization {
+  font-size: 34px;
+  font-weight: 700;
+  color: #FF685B;
+  margin-bottom: 15px;
+}
+
+.authorization-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.authorization-form>div>label>p {
+  font-size: 18px;
+  color: #FF685B;
+  font-weight: 700;
+}
+
+.authorization-form>div>label>input {
+  font-size: 20px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #3f38378f;
+}
+
+
+.btn-form-wrap {
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.btn-form-wrap>button {
+  padding: 3px 15px;
+  border: 1px solid #FF685B;
+  color: #FF685B;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-center>label {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .modal {
+    top: 30%;
+    left: 18%;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    top: 20%;
+    left: 10%;
+    width: 80vw;
+  }
+}
